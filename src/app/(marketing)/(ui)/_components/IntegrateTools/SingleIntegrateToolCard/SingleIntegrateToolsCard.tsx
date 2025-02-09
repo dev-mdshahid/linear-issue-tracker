@@ -15,9 +15,9 @@ export default function SingleIntegrateToolsCard({
   ss,
 }: TSingleIntegrateToolsCard) {
   return (
-    <div className="bg-dark-200 grid grid-cols-2 gap-5 overflow-hidden rounded-lg">
-      <div className="my-auto space-y-4 p-20">
-        <div className="mb-10 flex items-center gap-10">
+    <div className="bg-dark-200 grid gap-5 overflow-hidden rounded-lg lg:grid-cols-2">
+      <div className="my-auto space-y-4 p-10 lg:p-20">
+        <div className="mb-10 flex items-center justify-center gap-10 lg:justify-start">
           {logos.map((url, index) => (
             <Image
               key={index}
@@ -29,9 +29,11 @@ export default function SingleIntegrateToolsCard({
           ))}
         </div>
 
-        <h4 className="text-3xl font-bold leading-snug">{title}</h4>
+        <h4 className="text-2xl font-bold leading-snug lg:text-3xl">{title}</h4>
 
-        <p className="max-w-lg text-[#A7A9BE]">{description}</p>
+        <p className="mx-auto max-w-lg text-center text-[#A7A9BE] lg:text-left">
+          {description}
+        </p>
       </div>
       <Image
         className="w-full"

@@ -26,7 +26,7 @@ export default function CommandLineSS() {
       </p>
 
       {/* command line ss */}
-      <div className="mt-16 rounded-xl bg-gradient-to-br from-primary-from via-pink-600 to-primary-to p-32">
+      <div className="mt-16 rounded-xl bg-gradient-to-br from-primary-from via-pink-600 to-primary-to p-2 pt-6 sm:p-10 lg:p-32">
         <Image
           src={"/images/screenshots/command-line-ss.png"}
           alt="Linear command line ss"

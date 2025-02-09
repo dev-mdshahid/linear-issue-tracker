@@ -18,13 +18,13 @@ export default function HomePage() {
       <Features />
 
       {/* Command line section */}
-      {/* <CommandLineSS /> */}
+      <CommandLineSS />
 
       {/* Detailed features sections */}
-      {/* <FeatureSections /> */}
+      <FeatureSections />
 
       {/* Integration with other tools */}
-      {/* <IntegrateTools /> */}
+      <IntegrateTools />
     </main>
   );
 }

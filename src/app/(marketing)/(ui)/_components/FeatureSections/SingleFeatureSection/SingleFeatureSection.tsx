@@ -24,7 +24,7 @@ export default function SingleFeatureSection({
         "bg-dark-200": bg === "lighter",
       })}
     >
-      <section className="section-container max-width flex items-center justify-between gap-20">
+      <section className="section-container max-width flex flex-col items-center justify-between gap-20 md:flex-row">
         <div className="max-w-md">
           <h1 className="section-title">{sectionTitle}</h1>
           <div className="grid gap-8">
