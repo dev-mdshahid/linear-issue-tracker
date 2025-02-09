@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Demo() {
   return (
-    <section className="mt-5 w-full bg-[url('/images/bg-gradient.png')] bg-cover bg-center bg-no-repeat pt-20">
+    <section className="max-width mt-5 w-full bg-[url('/images/bg-gradient.png')] bg-cover bg-center bg-no-repeat pt-20">
       <div className="w-full bg-[url('/images/stage-lines.png')] bg-contain bg-no-repeat py-20">
         <Image
           src={"/images/demo.png"}

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Companies() {
   return (
-    <section className="bg-black py-16 text-center">
+    <section className="max-width bg-black py-16 text-center">
       <h3 className="mb-16 uppercase text-primary-to">
         Powering the next generation of the companies
       </h3>
