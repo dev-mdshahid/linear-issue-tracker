@@ -6,7 +6,7 @@ export default function Features() {
     <section className="bg-dark-200 section-container">
       <div className="max-width">
         <h2 className="section-title text-center">
-          An experience you&apos;d expect from a professional tool.
+          An experience you&apos;d expect from a <br /> professional tool.
         </h2>
 
         <p className="section-description text-center">

@@ -12,7 +12,7 @@ export const featureSectionsData: TFeatureSectionsData[] = [
     ],
     img: "/images/screenshots/interface-ss.png",
     imgPosition: "right",
-    bg: "darker",
+    bg: "lighter",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const featureSectionsData: TFeatureSectionsData[] = [
     ],
     img: "/images/screenshots/cycles-ss.png",
     imgPosition: "left",
-    bg: "lighter",
+    bg: "darker",
   },
   {
     id: 3,
@@ -33,6 +33,6 @@ export const featureSectionsData: TFeatureSectionsData[] = [
     ],
     img: "/images/screenshots/roadmap-ss.png",
     imgPosition: "right",
-    bg: "darker",
+    bg: "lighter",
   },
 ];

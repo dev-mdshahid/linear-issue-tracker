@@ -4,6 +4,7 @@ import Demo from "./_components/Demo/Demo";
 import Features from "./_components/Features/Features";
 import FeatureSections from "./_components/FeatureSections/FeatureSections";
 import Header from "./_components/Header/Header";
+import IntegrateTools from "./_components/IntegrateTools/IntegrateTools";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,9 @@ export default function HomePage() {
 
       {/* Detailed features sections */}
       <FeatureSections />
+
+      {/* Integration with other tools */}
+      <IntegrateTools />
     </main>
   );
 }
