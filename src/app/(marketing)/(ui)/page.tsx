@@ -1,3 +1,4 @@
+import CommandLineSS from "./_components/CommandLineSS/CommandLineSS";
 import Companies from "./_components/Companies/Companies";
 import Demo from "./_components/Demo/Demo";
 import Features from "./_components/Features/Features";
@@ -14,6 +15,9 @@ export default function HomePage() {
       <Companies />
       {/* Features that the tool is providing */}
       <Features />
+
+      {/* Command line section */}
+      <CommandLineSS />
 
       {/* Detailed features sections */}
       <FeatureSections />
