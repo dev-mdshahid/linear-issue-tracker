@@ -12,12 +12,12 @@ export default function FeatureCard({
   description,
 }: TFeatureCard) {
   return (
-    <div className="bg-dark-100 flex flex-col gap-4 rounded-xl p-12">
+    <div className="bg-dark-100 flex flex-col gap-4 rounded-xl p-8 md:p-12">
       <span className="text-3xl text-primary-from">{icon}</span>
 
-      <h4 className="text-xl font-bold">{title}</h4>
+      <h4 className="text-lg font-bold sm:text-xl">{title}</h4>
 
-      <p className="text-lg text-[#A7A9BE]">{description}</p>
+      <p className="text-base text-[#A7A9BE] sm:text-lg">{description}</p>
     </div>
   );
 }
