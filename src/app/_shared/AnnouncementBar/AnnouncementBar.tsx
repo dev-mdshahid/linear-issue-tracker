@@ -18,21 +18,26 @@ export default function AnnouncementBar({
   return (
     <div
       className={cn(
-        "relative mx-auto flex w-fit items-center gap-5 rounded-md px-5 py-4 shadow-[0px_0px_30px] shadow-pink-900 transition hover:scale-105",
+        "relative mx-auto flex w-fit flex-wrap items-center justify-center gap-1 rounded-md px-5 py-4 shadow-[0px_0px_30px] shadow-pink-900 transition hover:scale-105 sm:gap-5",
         className,
       )}
     >
       <Image
         src={"/images/linear-logo-red.png"}
         alt="Linear announcement logo"
+        className="mr-2"
         height={24}
         width={24}
       />
-      <p className="capitalize">{text}</p>
-      <span className="h-3 w-px bg-gray-600"></span>
-      <Link href={href ?? ""} className="flex items-center text-primary-from">
-        See what&apos;s new
-        <IoArrowForwardSharp />
+      <p className="text-sm capitalize sm:text-base">{text}</p>
+      <span className="hidden h-3 w-px bg-gray-600 sm:block"></span>
+      <Link
+        href={href ?? ""}
+        className="items-center text-primary-from sm:flex"
+      >
+        <span className="hidden sm:block">See what&apos;s new</span>
+
+        <IoArrowForwardSharp size={20} className="ml-2" />
       </Link>
     </div>
   );

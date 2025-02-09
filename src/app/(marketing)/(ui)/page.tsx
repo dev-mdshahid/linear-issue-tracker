@@ -11,20 +11,20 @@ export default function HomePage() {
     <main>
       <Header />
       {/* Demo screenshot of the issue tracker */}
-      <Demo />
+      {/* <Demo /> */}
       {/* Companies that uses the software */}
-      <Companies />
+      {/* <Companies /> */}
       {/* Features that the tool is providing */}
-      <Features />
+      {/* <Features /> */}
 
       {/* Command line section */}
-      <CommandLineSS />
+      {/* <CommandLineSS /> */}
 
       {/* Detailed features sections */}
-      <FeatureSections />
+      {/* <FeatureSections /> */}
 
       {/* Integration with other tools */}
-      <IntegrateTools />
+      {/* <IntegrateTools /> */}
     </main>
   );
 }
