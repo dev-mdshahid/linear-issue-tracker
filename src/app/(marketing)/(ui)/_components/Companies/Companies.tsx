@@ -4,12 +4,12 @@ import React from "react";
 
 export default function Companies() {
   return (
-    <section className="bg-black py-16 text-center">
-      <h3 className="mb-16 uppercase text-primary-to">
+    <section className="max-width bg-black px-5 py-16 text-center">
+      <h3 className="mb-16 uppercase leading-relaxed text-primary-to">
         Powering the next generation of the companies
       </h3>
 
-      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-12">
+      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-8 sm:gap-12">
         {/* companies logo */}
         {companiesData.map(({ id, name, logo }) => (
           <Image
