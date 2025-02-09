@@ -23,9 +23,13 @@ export default function Navbar() {
         ))}
       </ul>
       {/* Buttons */}
-      <div className="space-x-2">
-        <Button variant="secondary">Log in</Button>
-        <Button variant="primary">Sign up</Button>
+      <div className="flex gap-2">
+        <Button variant="secondary" key={1}>
+          Log in
+        </Button>
+        <Button variant="primary" key={2}>
+          Sign up
+        </Button>
       </div>
     </nav>
   );
