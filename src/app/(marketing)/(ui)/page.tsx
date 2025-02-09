@@ -1,6 +1,7 @@
 import Companies from "./_components/Companies/Companies";
 import Demo from "./_components/Demo/Demo";
 import Features from "./_components/Features/Features";
+import FeatureSections from "./_components/FeatureSections/FeatureSections";
 import Header from "./_components/Header/Header";
 
 export default function HomePage() {
@@ -13,6 +14,9 @@ export default function HomePage() {
       <Companies />
       {/* Features that the tool is providing */}
       <Features />
+
+      {/* Detailed features sections */}
+      <FeatureSections />
     </main>
   );
 }
