@@ -1,4 +1,4 @@
-import Demo from "./_components/Header/Demo/Demo";
+import Demo from "./_components/Demo/Demo";
 import Header from "./_components/Header/Header";
 
 export default function HomePage() {
